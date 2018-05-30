@@ -164,7 +164,7 @@ Apify.main(async () => {
 
         try {
             console.log(`Loading page: ${url}` + (page.redactedProxyUrl ? ` (proxyUrl: ${page.redactedProxyUrl})` : '') );
-
+            console.log("test");
             if (input.rawHtmlOnly) {
                 // Open web page using request()
                 const opts = {
